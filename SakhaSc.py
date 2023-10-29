@@ -5,8 +5,8 @@ from pydrive.drive import GoogleDrive
 gauth = GoogleAuth()
 drive = GoogleDrive(gauth)
 
-folder_id = '1Sj_Rn1c8anfaI22RB3vnjOlQa7k5Ncas'
-destination_path = '/home/test-user/data-mnt'
+folder_id = '1Sj_Rnuipoi9i90i9009890aI22R8y8y8y3a7k5Ncas'
+destination_path = '/home/test-user/'
 
 if not os.path.isdir(destination_path):
     print("Указанный путь к серверу не существует.")
